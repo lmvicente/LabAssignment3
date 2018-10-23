@@ -41,9 +41,9 @@ export class MainContentComponent implements OnInit {
 
     this.students[3] = {
       id: 4,
-      firstName: 'Laura',
-      lastName: 'Carter',
-      course: 'Theatre'
+      firstName: 'Joe',
+      lastName: 'Biden',
+      course: 'Politics'
     };
   }
 
@@ -53,11 +53,11 @@ export class MainContentComponent implements OnInit {
   addStudent() {
   const student: IStudent = {
     id: 5,
-    firstName: 'Joe',
-    lastName: 'Biden',
-    course: 'Politics'
+    firstName: 'Mike',
+    lastName: 'Tyson',
+    course: 'Boxing'
   };
 
-    this.students.push();
+    this.students.push(student);
   }
 }
